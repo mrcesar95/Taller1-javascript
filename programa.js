@@ -16,15 +16,15 @@ if (a > b) {
 
 
 // Definir tres variables y asignarles valores
-let a = 10;
-let b = 20;
+let c = 10;
+let d = 20;
 let num3 = 15;
 
 // Utilizar decisiones para imprimir la variable con el mayor valor
-if (a > b && a > num3) {
-  console.log("La variable num1 tiene el mayor valor: " + a);
-} else if (b > a && b > num3) {
-  console.log("La variable num2 tiene el mayor valor: " + b);
+if (c > d && c > num3) {
+  console.log("La variable num1 tiene el mayor valor: " + c);
+} else if (d > c && d > num3) {
+  console.log("La variable num2 tiene el mayor valor: " + d);
 } else {
   console.log("La variable num3 tiene el mayor valor: " + num3);
 
